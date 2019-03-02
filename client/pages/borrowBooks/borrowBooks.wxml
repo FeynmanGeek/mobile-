@@ -1,0 +1,12 @@
+<!--client/pages/borrowBooks/borrowBooks.wxml-->
+<view class='container'>
+    <view class='image-container'>
+        <image src='{{image}}'></image>
+    </view>
+    <view class='button-container'>
+        <button class='button' 
+                hover-class='changeColor' 
+                bindtap='borrowBooks'>借书
+        </button>
+    </view>
+</view>

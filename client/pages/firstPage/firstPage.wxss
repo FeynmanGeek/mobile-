@@ -1,0 +1,27 @@
+/* client/pages/firstPage/firstPage.wxss */
+#container{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+.nextContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 463.5rpx;
+  height: 286.4rpx;
+  font-size: 88.5px;
+  color: white;
+  margin-bottom: 143.22rpx;
+  border-radius: 7%;
+  background-color:#534c74;
+}
+.changeColor{
+  background-color: white;
+  color: black;
+  border-width:0px;
+}

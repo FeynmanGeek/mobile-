@@ -1,0 +1,25 @@
+/* client/pages/borrowBooks/borrowBooks.wxss */
+.container{
+  background-color: #F6F6F6;
+  height: 100vh;
+}
+.image-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 30rpx;
+  height: 500rpx;
+  width: 680rpx;
+}
+.button-container{
+  margin-top: 28rpx;
+}
+.button{
+  background-color: #534c74;
+  color: white;
+  width: 680rpx;
+}
+.changeColor{
+  background-color: white;
+  color: black;
+}

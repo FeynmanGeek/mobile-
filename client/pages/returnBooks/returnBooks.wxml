@@ -1,0 +1,19 @@
+<!--client/pages/returnBooks/returnBooks.wxml-->
+<text class='note'>亲爱的{{nickName}}用户,请您于借书之日起,三个月内归还书籍</text>
+<view class='container'>
+    <view wx:for='{{returnBooksInfomation}}' wx:key='_id' class='bookName'>
+        <text>书名：《{{item.bookName}}》</text>
+        <text>借书日期：{{item.currentTime}}</text>
+        <text>还书日期：{{item.closingTime}}</text>
+            <view bindtap='returnBooks' 
+                  data-bookname='{{item.bookName}}'
+                  data-closingtime='{{item.closingTime}}'
+                  data-id='{{item._id}}'
+                  name='returnBooks'
+                  class='button' 
+                  hover-class='changeColor'
+                  ><text class='text'>还书</text>
+            </view>
+    </view>
+    <text>{{zeroBook}}</text>
+</view>

@@ -1,0 +1,10 @@
+<!--client/pages/firstPage/firstPage.wxml-->
+<!--app/firstPage/firstPage.wxml-->
+<view id="container"> 
+    <view class="nextContainer" hover-class='changeColor'>
+        <navigator class="nav-default" url="../searchBooks/searchBooks">查书</navigator>
+    </view>
+    <view class="nextContainer" hover-class='changeColor'>
+        <navigator class="nav-default" url="../returnBooks/returnBooks">还书</navigator>
+    </view>
+</view>

@@ -1,0 +1,18 @@
+<!--client/pages/descriptionOfBooks/descriptionOfBooks.wxml-->
+<view class='total-container' >
+    <text>{{returnError}}</text>
+    <view class="text-container" 
+          wx:for="{{bookInformation}}"
+          wx:for-item="book" 
+          wx:key='_id' 
+          bindtap='pageTransition'
+          data-id='{{book._id}}'
+          name='bookid'>
+          <text>书名：《{{book.bookName}}》</text>
+          <text>作者：{{book.writer}}</text>
+          <text>图书类型：{{book.type}}</text>
+          <text>图书位置：{{book.location}}</text>
+    </view>
+</view>
+
+

@@ -1,0 +1,34 @@
+/* client/pages/searchBooks/searchBooks.wxss */
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+.input{
+margin-bottom: 3vh;
+height: 6vh;
+width: 680rpx;
+border-color: #534c74;
+border-width: 1.5px;
+border-style: solid;
+background-color: white;
+}
+.button{
+width: 680rpx;
+color: white;
+background-color: #534c74;
+}
+.image-container{
+  margin-top: 7vh;
+}
+.image{
+  border-radius: 7%;
+  width: 680rpx;
+}
+.changeColor{
+  background-color: white;
+  color:black;
+}

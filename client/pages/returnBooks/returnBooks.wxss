@@ -1,0 +1,44 @@
+/* client/pages/returnBooks/returnBooks.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #F6F6F6;
+  height: auto;
+} 
+.bookName{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 375rpx;
+  width: 680rpx;
+  margin-top:8vh;
+}
+.button{
+  width: 680rpx;
+  height: 7vh;
+  background-color: #534c74;
+  border-width: 1.5px;
+  border-style: solid;
+  color:white
+}
+.changeColor{
+  background-color: white;
+  color: black;
+  border-width:0px;
+}
+.text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1vh;
+}
+.note{
+ font-family: 'Microsoft YaHei';
+ font-size: 12px/1.5;
+ width: 750rpx;
+
+}

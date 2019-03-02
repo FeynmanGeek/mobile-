@@ -1,0 +1,19 @@
+/* client/pages/descriptionOfBooks/descriptionOfBooks.wxss */
+.total-container{
+  height: auto;
+  width: 750rpx;
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-container{
+  height: 30vh;
+  width:750rpx;
+  background-color:#534c74;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 5vh;
+  color: white;
+}

@@ -1,0 +1,17 @@
+<!--client/pages/searchBooks/searchBooks.wxml-->
+<view class="container">
+    <view class="image-container">
+        <image src="searchBooks.jpg" class="image"></image>
+    </view>
+    <form bindsubmit="formSubmit">
+        <view>
+            <input type='text'class="input" name="text"></input>
+        </view>
+        <view>
+            <button class="button" 
+                    hover-class='changeColor' 
+                    form-type='submit'>查书           
+            </button>
+        </view>
+    </form>
+</view>
